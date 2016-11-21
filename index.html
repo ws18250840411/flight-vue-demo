@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>单程机票航班信息</title>
+</head>
+<body>
+<div class="container">
+  <div class="row">
+    <div class="col-md-7"></div>
+    <div class="col-md-5">
+      <direct-flight-info :flights="[directFlight]"></direct-flight-info>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-7"></div>
+    <div class="col-md-5">
+      <transfer-flight-info :flights="flights"></transfer-flight-info>
+    </div>
+  </div>
+</div>
+<script src="build.js"></script>
+</body>
+</html>
